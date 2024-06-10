@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/41c789f0-7df5-4219-94c6-c66fe500590a/3149e5eb-4660-4e3d-9e65-b1e615229c64/IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-position: center;
+  /* background-size: max(1000px,124vw); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 117vh;
+  margin: auto;
+}
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+.box {
+  min-height: 117vh;
+  width: 100%;
+  background-color: rgb(0 0 0 / 60%);
+}
+nav{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.svgimg {
+     position: relative;
+    right: 106px;
+    top: 7px;
+    height: 78px;
+    width: 147px;
+} 
+.btn{
+    box-sizing:content-box;
+    margin: 9px;
+}
+.btn-sig{
+    /* position: relative;
+    left: 81px;
+    top:3px; */
+    font-family:"Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    border: 2px solid #e50914;
+    margin:4px;
+    background-color: #e50914;
+    padding:4px 13px 6px;
+    border-radius: 4px;
+}
+.btn-slec{
+    appearance: none;   
+    /* position: relative;
+    left: 65px;
+    top: 4px; */
+    font-size: 17px;
+    font: bolder;
+    font-weight: 403;
+    border: 1px solid  #605e5e;
+    background-color:#18120f;
+    color: white;
+    font-family:"Roboto", sans-serif;
+    padding:5px 21px 4px;
+    border-radius: 4px;
+}
+.language{
+    position: relative;
+    z-index:9;
+    left:2vw;
+}
+.arrowlogo{
+    position: relative;
+    z-index: 22;
+      right: 2vw;
+}
+.centretext{
+   font-family: "Roboto", sans-serif;
+   position: relative;
+   top: 37px;
+   height:533px; 
+   display: flex;
+   flex-direction: column; 
+   justify-content:center ;
+   align-items: center;
+   color: white;
+  } 
+ #mainline{
+  font-weight: 800;
+  font-size: 51px;
+}
+.para{
+  padding: 7px;
+  font-size: 25px;
+}
+.sep{
+  padding: 24px;
+  font-size: 21px;
+}
+.inputtake{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 20px;
+}
+.getstart{
+  background: #e50914;
+  padding: 10px;
+}  
